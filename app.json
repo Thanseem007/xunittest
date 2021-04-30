@@ -1,0 +1,22 @@
+{
+  "formation": {
+    "web": {
+      "size": "4X",
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.factset.com/tnazar/dotnetcore-buildpack"
+    }
+  ],
+   "environments": {
+    "test": {
+      "scripts": {
+        
+        "test": "dotnet test"
+      }
+    }
+  }
+
+}
